@@ -1,0 +1,98 @@
+.contact-us {
+    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url("../assets/images/contact.webp") no-repeat center center;
+    background-size: cover;
+    color: var(--secondary-color);
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title h6 {
+    color: var(--secondary-color);
+}
+
+.title h1 {
+    color: white;
+}
+
+.title h1 {
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+.contact-form {
+    display: flex;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 1rem;
+}
+
+.left i {
+    font-size: 2rem;
+    color: white;
+    background-color: var(--secondary-color);
+    border-radius: 50%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    margin-right: 0.5rem;
+}
+
+.left span {
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    margin-left: 20rem;
+    color: var(--secondary-color);
+    cursor: pointer;
+    padding-bottom: 0.5rem;
+}
+
+.divider-line {
+    border: none;
+    width: 2px; /* Adjust line width as needed */
+    height: 350px; /* Adjust line height as needed */
+    background-color: white; /* Change line color */
+    transform: rotate(180deg); /* Rotate the line 90 degrees clockwise */
+  }
+
+  .right {
+    width: 25%;
+    height: auto;
+    margin: 1.5rem 0 0 7rem;
+  }
+
+  .right label {
+    font-weight: 800;
+  }
+
+  .right input, textarea {
+    width: 100%;
+    margin-bottom: 2rem;
+    border-radius: 5px;
+    border: none;
+    padding: 0.3rem 0.5rem;
+  }
+
+  .right input:nth-of-type(3) {
+    height: 50%;
+    margin-bottom: 5rem;
+  }
+
+  .sendBtn {
+    width: 5rem;
+    border-radius: 5px;
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    background-color: var(--secondary-color);
+    color: white;
+  }

@@ -1,0 +1,189 @@
+.about_head-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url("../assets/images/about-main-img.avif") no-repeat center center;
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.about_head-section h1 {
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+.about_split-container {
+    display: flex;
+    flex-wrap: wrap; /* Enable wrapping for responsive layout */
+  }
+  
+  .about_content {
+    flex: 1; /* Set to take exactly 50% width */
+    max-width: 50%; /* Ensure it doesn't exceed 50% */
+    padding: 6rem 6rem 0 6rem;
+    box-sizing: border-box; /* Include padding in width calculation */
+    min-height: calc(100vh - 600px); /* Set minimum height based on screen height */
+  }
+
+  .about_content h2 {
+    font-family: var(--subtitle-font-name);
+    font-weight: 900;
+    font-size: 5rem;
+    color: var(--secondary-color);
+  }
+  
+  .about_content p {
+    color: var(--text-color);
+    font-size: 1.4rem;
+  }
+
+  .about_img-box {
+    height: 600px;
+    flex: 1; /* Take the remaining space */
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px; /* Adjust spacing between the sections */
+    align-items: center; /* Centers items horizontally */
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .about_img {
+    max-width: 100px; /* Define a maximum width for images */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 5px; /* Adjust spacing between images */
+  }
+
+  .about_img-box img {
+    border-radius: 20px;
+    border: 1px solid var(--secondary-color);
+    object-fit: cover;
+  }
+
+  .about_img1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 75%;
+    height: 55%;
+  }
+
+  .about_img2 {
+    position: absolute;
+    top: 70px;
+    right: 30px;
+    width: 45%;
+    height: auto;
+  }
+
+  .about_img3 {
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    width: 50%;
+    height: 40%;
+  }
+
+  .about_our-future {
+    padding: 0;
+  }
+
+  .about_our-split-container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 20rem;
+  }
+
+  .about_our-future-title {
+    flex: 1; /* Set to take exactly 50% width */
+    max-width: 50%; /* Ensure it doesn't exceed 50% */
+    height: auto;
+    padding: 2rem 6rem 0 6rem;
+  }
+
+  .about_our-future-title h2 {
+    font-size: 2.7rem;
+    font-weight: 900;
+    font-family: var(--subtitle-font-name);
+    color: var(--secondary-color);
+  }
+
+  .about_our-future-title p {
+    color: var(--text-color);
+    font-size: 1.3rem;
+  }
+
+  .about_our-future-content {
+    width: 50%;
+    margin-left: 1rem;
+    display: flex;
+  }
+
+  .mission, .vision {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .mission {
+    background-color: aquamarine;
+    margin-right: 2rem;
+  }
+
+  .mission h3, .vision h3 {
+    font-weight: 700;
+  }
+
+  .mission, .vision p {
+    padding: 0 3.5rem;
+    font-weight: 400;
+    font-size: 1.1rem;
+  }
+
+  .vision {
+    background-color: aqua;
+  }
+
+  .our_values {
+    text-align: center;
+  }
+
+  .our_values h2 {
+    font-size: 5rem;
+    font-weight: 900;
+    font-family: var(--subtitle-font-name);
+    color: var(--secondary-color);
+  }
+
+  .our_value-container {
+    display: grid;
+    grid-template-columns: repeat(5, 250px); /* Adjust width of boxes as needed */
+    gap: 20px; /* Adjust space between the boxes */
+    justify-content: center; /* Center the grid horizontally */
+    margin: 0 auto; /* Center the container */
+    width: 800px; /* Adjust container width as needed */
+    margin-top: 2rem;
+  }
+  
+  .box {
+    height: 310px; /* Adjust height of boxes as needed */
+    background-color: rgb(241, 244, 246); /* Add background color or styles */
+  }
+
+  .box h4 {
+    color: rgb(0, 175, 215);
+    padding: 1rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+  }
+  
+  .box p {
+    padding: 1rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
